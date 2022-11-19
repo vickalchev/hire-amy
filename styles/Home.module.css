@@ -1,0 +1,89 @@
+.container {
+  padding: 0 5%;
+  background-color: #FFF7F0;
+}
+
+
+.main {
+  min-height: 100vh;
+  padding: 1rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.freeConsultBtn {
+  background-color: black;
+  border-radius: 2rem;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 1rem 1.75rem;
+  border: 0;
+}
+
+.freeConsultBtn:hover {
+  background-color:#755CDE;
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem 1.75rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  text-align: center;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.paragraph {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #7A746E;
+  text-align: center;
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.svcCardsContainer {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  row-gap: 5px;
+  column-gap: 5px;
+
+
+}
+
+.graphicDesignCard {
+
+}
+
+.uxUiCard {
+
+}
+
+.appsCard {
+
+}
+
+.photographyCard {
+
+}
+
+.illustrationsCard {
+
+}
+
+.motionGraphicsCard {
+
+}
